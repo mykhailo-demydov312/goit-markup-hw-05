@@ -431,6 +431,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         max-width: 264px;
 }
 
+.footer-container-social {
+    margin-right: 80px;
+}
+
 .footer-social-subtitle {
     font-weight: 500;
     font-size: 16px;
@@ -469,6 +473,57 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 .footer-social-icon {
     fill: #f4f4fd;
 }
+
+.form-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.form {
+    display: flex;
+    gap: 24px;
+}
+
+.form-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+    line-height: 2;
+    letter-spacing: 0.04em;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-icon {
+    margin-left: 16px;
+}
+
 
 .backdrop {
     position: fixed;
