@@ -591,6 +591,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     fill: #FFFFFF;
 }
 
+.modal-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal-text {
     font-weight: 500;
     font-size: 16px;
@@ -599,6 +603,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 16px;
+}
+
+.modal-form {
+    margin-bottom: 8px;
 }
 
 .form-container {
